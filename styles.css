@@ -1,0 +1,169 @@
+/* MAIN BACKGROUND */
+
+.stApp {
+    background-color: #cdebfb;
+    font-family: "Segoe UI", sans-serif;
+    color: #2b2b2b;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    background: #1f2a3a;
+    color: white;
+
+    padding: 12px 30px;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    border-radius: 8px;
+    margin: 10px 0 30px 0;
+
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+
+
+/* HEADER */
+
+h1 {
+    font-weight: 700;
+    color: #2b2b2b !important;
+}
+
+p {
+    color: #5a5a5a;
+}
+
+
+/* UPLOAD CARD */
+
+.upload-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+    color: #5a5a5a;
+}
+
+
+/* FILE UPLOADER */
+
+.stFileUploader {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e6e6e6;
+}
+
+
+/* DROPDOWN */
+
+.stSelectbox > div > div {
+    background: white;
+    border-radius: 10px;
+    color: #5a5a5a;
+}
+
+
+/* BUTTON */
+
+/* BUTTONS (Analyze + Download) */
+
+.stButton button,
+.stDownloadButton button {
+
+    background: #80c1f9 !important;
+    color: white !important;
+
+    border-radius: 10px;
+    height: 45px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    border: none;
+
+    width: 100%;
+}
+
+.stButton button:hover,
+.stDownloadButton button:hover {
+
+    background: #6b8cf8 !important;
+    color: white !important;
+}
+
+/* TABS */
+
+.stTabs [role="tab"] {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* METRICS */
+
+[data-testid="stMetricValue"] {
+    font-size: 26px;
+}
+
+
+/* PDF FRAME */
+
+iframe {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+
+/* AI INSIGHT CARDS */
+
+.insight-card {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.05);
+    min-height: 120px;
+    font-size: 15px;
+    color: #5a5a5a;
+}
+
+.section-card {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    color: #5a5a5a;
+}
+
+.section-card h4 {
+    margin-bottom: 8px;
+    color: #1f2937;
+}
+
+.section-card p {
+    color: #444;
+}
+
+.insight-card h4 {
+    font-size: 1.35rem;
+    color: #1e40af;
+    margin-bottom: 12px;
+}
+
+.insight-card {
+    border-left: 5px solid #3b82f6;
+}
+
+
+
